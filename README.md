@@ -17,8 +17,8 @@ The chatbot will use three main components to determine how to interpret the use
 
 #### <p align="center"> [`IBM Watson Assistant Page`](https://www.ibm.com/cloud/watson-assistant/)</p>
 
-## My chatbot using IBM Watson assistant()
-
+## My chatbot using IBM Watson assistant (Ka)
+My little chatbot can recommend you a book, movie, or even a place. It also tells jokes but I don't advise you to try to ask about that.
 
 #### - You can view as [JSON File]().
 
