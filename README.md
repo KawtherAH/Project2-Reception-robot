@@ -1,5 +1,5 @@
-# Project2: Reception robot
-"**Reception robot**" project, is a robot for receiving and serving customers, as well as recording the extent of customer satisfaction.
+# Project 2: Reception Robot
+"**Reception Robot**" project, is a robot for receiving and serving customers, as well as recording the extent of customer satisfaction.
 
 In this project, we will build an IT support **chatbot** by using **IBM Watson Assistant** (It is a service provided by IBM that allows you to create a free chatbot for 30 days).
 
