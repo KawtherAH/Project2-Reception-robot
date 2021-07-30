@@ -20,8 +20,16 @@ The chatbot will use three main components to determine how to interpret the use
 ## My chatbot using IBM Watson assistant (Ka)
 My little chatbot can recommend you a book, movie, or even a place. It also tells jokes but I don't advise you to try to ask about that.
 
-#### - You can view as [JSON File]().
+***
+<p align="center">
+  <img height="600" src="https://github.com/KawtherAH/Project2-Reception-robot/blob/main/chatbot%20img%201.png">
+  <img height="600" src="https://github.com/KawtherAH/Project2-Reception-robot/blob/main/chatbot%20img%202.png">
+</p>
 
-#### - You can try [My chatbot](https://kawtherah.github.io/FR_ControlPanel/).
+***
+
+### - You can view as [JSON File]().
+
+### - You can try [My chatbot](https://kawtherah.github.io/FR_ControlPanel/).
 
 
