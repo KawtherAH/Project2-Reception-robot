@@ -28,7 +28,7 @@ My little chatbot can recommend you a book, movie, or even a place. It also tell
 
 ***
 
-### - You can view as [JSON File]().
+### - You can view as [JSON File](https://github.com/KawtherAH/Project2-Reception-robot/blob/main/skill-Recommendation-Chatbot-skill.json).
 
 ### - You can try [My chatbot](https://kawtherah.github.io/FR_ControlPanel/).
 
