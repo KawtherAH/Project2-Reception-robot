@@ -1,0 +1,1632 @@
+{
+  "intents": [
+    {
+      "intent": "Book_Recommendation",
+      "examples": [
+        {
+          "text": "Books Recommendation for kids"
+        },
+        {
+          "text": "can you recommend a horror book?"
+        },
+        {
+          "text": "I am looking for horror books."
+        },
+        {
+          "text": "I want a Mystery Books."
+        },
+        {
+          "text": "looking for romance book"
+        },
+        {
+          "text": "Recommend a good horror books."
+        },
+        {
+          "text": "recommend books"
+        }
+      ],
+      "description": "Books Recommendation"
+    },
+    {
+      "intent": "Goodbyes",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "bonjour"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Hallo"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Kia Ora"
+        },
+        {
+          "text": "Merhaba"
+        },
+        {
+          "text": "Salam"
+        },
+        {
+          "text": "welcome"
+        },
+        {
+          "text": "What's up?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "Joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Movies_Recommendation",
+      "examples": [
+        {
+          "text": "can you recommend a comedy movies"
+        },
+        {
+          "text": "can you recommend movies for me"
+        },
+        {
+          "text": "Horror movie"
+        },
+        {
+          "text": "I'm looking for movies"
+        },
+        {
+          "text": "movies"
+        },
+        {
+          "text": "movies for kids?"
+        },
+        {
+          "text": "recommend movies"
+        },
+        {
+          "text": "zombie movies"
+        }
+      ],
+      "description": "Movies Recommendation"
+    },
+    {
+      "intent": "Place_Recommendation",
+      "examples": [
+        {
+          "text": "can you recommend a restaurant for me?"
+        },
+        {
+          "text": "can you recommend place to visit?"
+        },
+        {
+          "text": "Coffee"
+        },
+        {
+          "text": "I am looking for cafe, can you recommend some?"
+        },
+        {
+          "text": "is there place to visit?"
+        },
+        {
+          "text": "recommend place"
+        }
+      ],
+      "description": "Place Recommendation"
+    },
+    {
+      "intent": "Reservation",
+      "examples": [
+        {
+          "text": "can I book"
+        },
+        {
+          "text": "Find Reservation"
+        },
+        {
+          "text": "Is a reservation available?"
+        },
+        {
+          "text": "Is there a reservation?"
+        },
+        {
+          "text": "I want to booking"
+        }
+      ],
+      "description": "Check if there are available booking"
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "appreciate it"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "I'm good thank you"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "Thanks very much."
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thx"
+        }
+      ],
+      "description": "Thank you"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Genre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Action",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arabic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Comedy",
+          "synonyms": [
+            "amusing",
+            "comedian",
+            "comedic",
+            "comedies",
+            "comical",
+            "droll",
+            "farce",
+            "humorous",
+            "spoof"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Drama",
+          "synonyms": [
+            "dramas",
+            "melodrama"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dystopia",
+          "synonyms": [
+            "dystopian",
+            "dystopic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fantasy",
+          "synonyms": [
+            "dream",
+            "dreams",
+            "fancy",
+            "fantasia",
+            "fantasies",
+            "illusion",
+            "illusions",
+            "imaginary",
+            "imagination",
+            "magic",
+            "obsession"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Historical",
+          "synonyms": [
+            "archaeological",
+            "archeological",
+            "archeology",
+            "cultural",
+            "historiographic",
+            "historiographical",
+            "historiography",
+            "prehistory"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Historical Fiction",
+          "synonyms": [
+            "booksigning",
+            "contemporary fiction",
+            "fiction",
+            "nonfiction",
+            "nonfiction book",
+            "teleplay"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Horror",
+          "synonyms": [
+            "fear",
+            "scary",
+            "terror",
+            "zombie"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kid",
+          "synonyms": [
+            "baby",
+            "child",
+            "children",
+            "kiddo",
+            "kids",
+            "little",
+            "teenage",
+            "teenager"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Memoir",
+          "synonyms": [
+            "autobiographical",
+            "autobiography",
+            "memoirist",
+            "memoirs",
+            "memory",
+            "nonfiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mystery",
+          "synonyms": [
+            "ambiguity",
+            "enigma",
+            "enigmas",
+            "ghost",
+            "mystère",
+            "mysteries",
+            "mysterious",
+            "puzzle",
+            "riddle",
+            "secret",
+            "suspense",
+            "suspenseful",
+            "thriller",
+            "thrillers"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Psychology",
+          "synonyms": [
+            "mentality",
+            "philosophy",
+            "psych",
+            "psychiatry",
+            "psychobiology",
+            "psychological",
+            "psychologist",
+            "sociology"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Realistic Fiction",
+          "synonyms": [
+            "fantasy",
+            "fiction",
+            "fictions",
+            "imagination"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Romance",
+          "synonyms": [
+            "boyfriend",
+            "cellmate",
+            "fiance",
+            "friendship",
+            "girlfriend",
+            "husband",
+            "love",
+            "lover",
+            "rapport",
+            "relationship",
+            "relationships",
+            "romances",
+            "romantic",
+            "tryst"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Science fiction",
+          "synonyms": [
+            "fiction",
+            "sci fi",
+            "scifi",
+            "sci-fi/fantasy",
+            "sci-fi/horror",
+            "speculative fiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Short Stories",
+          "synonyms": [
+            "articles",
+            "examples",
+            "narratives",
+            "novels",
+            "story",
+            "storytelling",
+            "tales"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Young Adult",
+          "synonyms": [
+            "childrens",
+            "interfaith",
+            "lenten",
+            "unitarian"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Place",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bank",
+          "synonyms": [
+            "banks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bookstore",
+          "synonyms": [
+            "booksellers",
+            "bookselling",
+            "bookshop",
+            "bookshops",
+            "bookstores"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cafe",
+          "synonyms": [
+            "bakery",
+            "café",
+            "cafes",
+            "cafés",
+            "coffee",
+            "coffeehouse",
+            "coffeehouses",
+            "patisserie",
+            "tearoom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "garden",
+          "synonyms": [
+            "gardens",
+            "landscaped",
+            "lawns",
+            "summerhouse"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hospital",
+          "synonyms": [
+            "centers",
+            "clinics",
+            "dispensaries",
+            "hospitals"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "restaurant",
+          "synonyms": [
+            "deli",
+            "diner",
+            "eateries",
+            "hamburgers",
+            "motel",
+            "motels",
+            "pizza",
+            "pizzas",
+            "pizzeria",
+            "pizzerias",
+            "restaurants"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "shopping",
+          "synonyms": [
+            "boutiques",
+            "hypermarket",
+            "mall",
+            "malls",
+            "shoppers",
+            "shops",
+            "stores",
+            "supermarket",
+            "supermarkets",
+            "superstore"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing.😅"
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning.😅"
+              },
+              {
+                "text": "It looks like we are not quite getting each other today. Would you like to talk to a human agent instead? If so, please contact us at +966-123-4567 or email us at support\\@example.org.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1627325094558",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1627326490740",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_2_1627326490742"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "which day?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1627326439692",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1627326439707",
+      "previous_sibling": "handler_7_1627326439707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "what is time?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1627326488618",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1627326488619",
+      "previous_sibling": "handler_6_1627326488619"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1627326488618",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_6_1627326488619"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1627326439692",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_7_1627326439707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How many person??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1627326490740",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1627326490742",
+      "previous_sibling": "handler_2_1627326490742"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Please choose a location:",
+            "options": [
+              {
+                "label": "Restaurant",
+                "value": {
+                  "input": {
+                    "text": "Restaurant"
+                  }
+                }
+              },
+              {
+                "label": "Cinema",
+                "value": {
+                  "input": {
+                    "text": "Cinema"
+                  }
+                }
+              },
+              {
+                "label": "Beauty Salon ",
+                "value": {
+                  "input": {
+                    "text": "Beauty Salon "
+                  }
+                }
+              },
+              {
+                "label": "Exhibition",
+                "value": {
+                  "input": {
+                    "text": "Exhibition"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Booking",
+      "dialog_node": "node_1_1627325094558",
+      "previous_sibling": "node_5_1627493260765"
+    },
+    {
+      "type": "standard",
+      "title": "Movies Recommendations",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, please give me a sec...⏳"
+              },
+              {
+                "text": "Give me a second :)"
+              },
+              {
+                "text": "Sure..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1627518873635"
+      },
+      "conditions": "#Movies_Recommendation",
+      "dialog_node": "node_1_1627518873632",
+      "previous_sibling": "node_8_1627517349186"
+    },
+    {
+      "type": "standard",
+      "title": "Place: Cafe ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "وكف | Wacafe: \n<a href=\"https://maps.app.goo.gl/tYJP4Bjh776Vazu59\">Mape</a> | <a href=\"https://www.instagram.com/wacafecoffee/\">Instagram</a>  | <a href=\" https://wacafe.sa/\">Website</a>"
+              },
+              {
+                "text": "BERRY: \n<a href=\"https://maps.app.goo.gl/wqcDdhWsBzPBqt3UA\">Mape</a> | <a href=\"https://www.instagram.com/berry.ksa/\">Instagram</a>"
+              },
+              {
+                "text": "Soulaf: \n<a href=\"https://maps.app.goo.gl/QGYQxjiSVdW1HAuu7\">Mape</a> | <a href=\"https://www.instagram.com/soulaf_coffee/?utm_medium=copy_link\">Instagram</a>"
+              },
+              {
+                "text": "Ocean: \n<a href=\"https://maps.app.goo.gl/GjGRQefFU52T8tb29\">Mape</a> | <a href=\"https://instagram.com/ocean.coffee.sa?utm_medium=copy_link\">Instagram</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1627519343059",
+      "conditions": "@Place:cafe",
+      "dialog_node": "node_1_1627658904392",
+      "previous_sibling": "node_8_1627657156261"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Historical",
+      "output": {
+        "generic": [
+          {
+            "title": "The Book Thief",
+            "source": "https://images-na.ssl-images-amazon.com/images/I/51APkyJzNlL._AC_SY580_.jpg",
+            "description": "Genre(s): Historical, Young Adult, Classics, War. Author: Markus Zusak.",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1627517349186",
+      "conditions": "@Genre:Historical",
+      "dialog_node": "node_2_1627518521024",
+      "previous_sibling": "node_8_1627518425456"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Kids",
+      "output": {
+        "generic": [
+          {
+            "title": "The Little Prince",
+            "source": "https://booksvooks.com/assets/images/book/the-little-prince-pdf-antoine-de-saint-exupery.webp",
+            "description": "Genre(s): Kids, Fantasy, Young Adult, Classics, Philosophy, Literature. Author: Antoine de Saint-Exupéry.",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1627517349186",
+      "conditions": "@Genre:Kid",
+      "dialog_node": "node_2_1627518591768",
+      "previous_sibling": "node_2_1627518521024"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Action",
+      "output": {
+        "generic": [
+          {
+            "title": "Maze Runner: The Death Cure (2018) ",
+            "source": "https://www.shahidpro.tv/uploads/articles/ab299501.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1627518873632",
+      "conditions": "@Genre:Action",
+      "dialog_node": "node_2_1627518873635"
+    },
+    {
+      "type": "standard",
+      "title": "Place Recommendations",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Give me sec"
+              },
+              {
+                "text": "In sec..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1627657156261"
+      },
+      "conditions": "#Place_Recommendation",
+      "dialog_node": "node_2_1627519343059",
+      "previous_sibling": "node_1_1627518873632"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Romance",
+      "output": {
+        "generic": [
+          {
+            "title": "The Fault in Our Stars",
+            "source": "https://cimalek.net/wp-content/uploads/2020/05/clmvI4B5JB2ToPGtiHodaLMFaoM.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1627518873632",
+      "conditions": "@Genre:Romance",
+      "dialog_node": "node_3_1627518873635",
+      "previous_sibling": "node_2_1627518873635"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Mystery",
+      "output": {
+        "generic": [
+          {
+            "title": "Da Vinci Code",
+            "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvzHLjtzg2xtBLRp5QlpwswoDZFajG3lTEHwmYpkVzUpg3wDfB",
+            "description": "Genre(s): Mystery, Detective fiction, Conspiracy fiction, Thriller. Author: Dan Brown.",
+            "response_type": "image"
+          },
+          {
+            "title": "The Murder of Roger Ackroyd",
+            "source": "https://upload.wikimedia.org/wikipedia/ar/4/4d/Rogerackroyd.jpg",
+            "description": "Genre(s): Mystery, Crime novel. Author: Agatha Christie.",
+            "response_type": "image"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1627517349186",
+      "conditions": "@Genre:Mystery",
+      "dialog_node": "node_4_1627517409592"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Horror",
+      "output": {
+        "generic": [
+          {
+            "title": "It Chapter Two",
+            "source": "https://beal.egybest.buzz/upload/source/WmFwZndlY21MY3Z0Y21URW1iRWNtYm1FUG12Y05qbW1Q.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1627518873632",
+      "conditions": "@Genre:Horror",
+      "dialog_node": "node_4_1627518873635",
+      "previous_sibling": "node_3_1627518873635"
+    },
+    {
+      "type": "folder",
+      "title": "Chat",
+      "dialog_node": "node_5_1627493260765",
+      "previous_sibling": "node_5_1627519383747"
+    },
+    {
+      "type": "standard",
+      "title": "Thanks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. Please let me know if you need anything else."
+              },
+              {
+                "text": "I aim to please.  😊"
+              },
+              {
+                "text": "No problem. Let me know if there is anything else I can help with."
+              },
+              {
+                "text": "My pleasure."
+              },
+              {
+                "text": "You're welcome. I'm glad that I was able to help. 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1627493260765",
+      "conditions": "#Thanks",
+      "dialog_node": "node_5_1627493320901",
+      "previous_sibling": "node_7_1626701328738"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Comedy",
+      "output": {
+        "generic": [
+          {
+            "title": " Yes Day 2021 ",
+            "source": "https://cimalina.com/wp-content/uploads/2021/02/Ashampoo_Snap_2021.02.14_12h31m32s_001_.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1627518873632",
+      "conditions": "@Genre:Comedy",
+      "dialog_node": "node_5_1627518873635",
+      "previous_sibling": "node_4_1627518873635"
+    },
+    {
+      "type": "standard",
+      "title": "Tell Jokes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Why did the kid bring a ladder to school?\n\nBecause she wanted to go to high school.😆"
+              },
+              {
+                "text": "واحد اسمه نادر تزوج وحدة اسمها نادرة جابو ولد سموه مهدد بالانقراض.😂"
+              },
+              {
+                "text": "Sorry but my jokes are bad.😔"
+              },
+              {
+                "text": "I don't have one now.🙄"
+              },
+              {
+                "text": "Can you ask me about anything else! 🙂"
+              },
+              {
+                "text": "I'm not telling jokes, they forced me to this feature...😒"
+              },
+              {
+                "text": "Jokes 🤪"
+              },
+              {
+                "text": "Wanna hear a joke about construction? I'm still workin' on it! 😝"
+              },
+              {
+                "text": "Dear customer, stop looking for jokes and find something useful instead.😊"
+              },
+              {
+                "text": "🤨💣"
+              },
+              {
+                "text": "I am not in the mood to tell jokes.😶"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Jokes",
+      "dialog_node": "node_5_1627519383747",
+      "previous_sibling": "node_2_1627519343059"
+    },
+    {
+      "type": "standard",
+      "title": "NO Genre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which genre?🤔"
+              },
+              {
+                "text": "Sure but, can you give me a specific genre?😁"
+              },
+              {
+                "text": "Please select genre ⬇"
+              },
+              {
+                "text": " can you give me a specific genre?? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Mystery",
+                "value": {
+                  "input": {
+                    "text": "Mystery book"
+                  }
+                }
+              },
+              {
+                "label": "Romance",
+                "value": {
+                  "input": {
+                    "text": "Romance book"
+                  }
+                }
+              },
+              {
+                "label": "Horror",
+                "value": {
+                  "input": {
+                    "text": "Horror book"
+                  }
+                }
+              },
+              {
+                "label": "Historical",
+                "value": {
+                  "input": {
+                    "text": "Historical book"
+                  }
+                }
+              },
+              {
+                "label": "Kids",
+                "value": {
+                  "input": {
+                    "text": "Kid book"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1627517349186",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1627517349186"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1627517847234",
+      "previous_sibling": "node_2_1627518591768"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Kids",
+      "output": {
+        "generic": [
+          {
+            "title": "Charlie and the Chocolate Factory 2005",
+            "source": "https://cima4u.ws:2053/wp-content/uploads/00000-1914.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Home 2015",
+            "source": "https://shahd.online/wp-content/uploads/2019/02/Home-2015.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1627518873632",
+      "conditions": "@Genre:Kid",
+      "dialog_node": "node_6_1627518873635",
+      "previous_sibling": "node_5_1627518873635"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you today?"
+              },
+              {
+                "text": "Hi, I can help you with the following:"
+              },
+              {
+                "text": "Hi there. I can do the following:"
+              },
+              {
+                "text": "Hello. How may I assist you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Book",
+                "value": {
+                  "input": {
+                    "text": "Book"
+                  }
+                }
+              },
+              {
+                "label": "Movie",
+                "value": {
+                  "input": {
+                    "text": "Movie"
+                  }
+                }
+              },
+              {
+                "label": "Place to visit",
+                "value": {
+                  "input": {
+                    "text": "Place"
+                  }
+                }
+              },
+              {
+                "label": "Joke",
+                "value": {
+                  "input": {
+                    "text": "Joke"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1627493260765",
+      "conditions": "#Greetings",
+      "dialog_node": "node_7_1626701328738"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Romance",
+      "output": {
+        "generic": [
+          {
+            "title": "White Nights",
+            "source": "https://www.alarabimag.com/images/thumbs/23111.jpg",
+            "description": "Genre(s): Literature, Romance, Classics, Fiction, Short Stories. Author: Fyodor Dostoyevsky.",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1627517349186",
+      "conditions": "@Genre:Romance",
+      "dialog_node": "node_7_1627518429947",
+      "previous_sibling": "node_4_1627517409592"
+    },
+    {
+      "type": "standard",
+      "title": "NO Genre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which genre?🤔"
+              },
+              {
+                "text": "Please select genre ⬇"
+              },
+              {
+                "text": "Sure but, can you give me a specific genre?😁"
+              },
+              {
+                "text": " can you give me a specific genre? 🤔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Horror",
+                "value": {
+                  "input": {
+                    "text": "Horror movie"
+                  }
+                }
+              },
+              {
+                "label": "Romance",
+                "value": {
+                  "input": {
+                    "text": "Romance movie"
+                  }
+                }
+              },
+              {
+                "label": "Action",
+                "value": {
+                  "input": {
+                    "text": "Action movie"
+                  }
+                }
+              },
+              {
+                "label": "Comedy",
+                "value": {
+                  "input": {
+                    "text": "Comedy movie"
+                  }
+                }
+              },
+              {
+                "label": "Kids",
+                "value": {
+                  "input": {
+                    "text": "Kid movie"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1627518873632",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1627518873632"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1627518873635",
+      "previous_sibling": "node_6_1627518873635"
+    },
+    {
+      "type": "standard",
+      "title": "Book Recommendations",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, please give me a sec...⏳"
+              },
+              {
+                "text": "Sure..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1627517409592"
+      },
+      "conditions": "#Book_Recommendation",
+      "dialog_node": "node_8_1627517349186",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Genre: Horror",
+      "output": {
+        "generic": [
+          {
+            "title": "The Haunting of Hill House",
+            "source": "https://cdn.shopify.com/s/files/1/0019/7102/8034/products/81925738_2546488525399782_5805360423301545984_o_512x784.jpg?v=1579113495",
+            "description": "Genre(s): Horror, Fiction, Psychological. Author: Shirley Jackson.",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1627517349186",
+      "conditions": "@Genre:Horror",
+      "dialog_node": "node_8_1627518425456",
+      "previous_sibling": "node_7_1627518429947"
+    },
+    {
+      "type": "standard",
+      "title": "Place: Restaurant",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bharat Restaurant: \n<a href=\"https://maps.app.goo.gl/nWQWKqoMU1iDfFvAA\">Mape</a> | <a href=\"https://www.instagram.com/bharat_ksa/\">Instagram</a> "
+              },
+              {
+                "text": "Mistca Restaurant: \n<a href=\"https://maps.app.goo.gl/pDf6ZRq2ssBdPEu16\">Mape</a> | <a href=\"https://www.instagram.com/mistca_sa/\">Instagram</a> "
+              },
+              {
+                "text": "Code Restaurant: \n<a href=\"https://maps.app.goo.gl/gZqfHtuKk2hUteyi7\">Mape</a> | <a href=\"https://www.instagram.com/codeksa1/\">Instagram</a> "
+              },
+              {
+                "text": "Yummy Fork Restaurant: \n<a href=\"https://maps.app.goo.gl/oxX2D9zniZs3z8zK8\">Mape</a> | <a href=\"https://www.instagram.com/yummy.fork/\">Instagram</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1627519343059",
+      "conditions": "@Place:restaurant",
+      "dialog_node": "node_8_1627657156261"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Goodbye.👋"
+              },
+              {
+                "text": "Have a good day. 🌸"
+              },
+              {
+                "text": "Have a nice day.🌷"
+              },
+              {
+                "text": "See you."
+              },
+              {
+                "text": "See you later."
+              },
+              {
+                "text": "See you later, Have a good day.💛"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1627493260765",
+      "conditions": "#Goodbyes",
+      "dialog_node": "node_9_1626701878745",
+      "previous_sibling": "node_5_1627493320901"
+    },
+    {
+      "type": "frame",
+      "title": "Confirm ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Booking Confirmed. we are waiting for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1627325094558",
+      "dialog_node": "node_9_1627326369708"
+    },
+    {
+      "type": "standard",
+      "title": "Choose Place",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure but, can you specify the type of place?😁"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Restaurant",
+                "value": {
+                  "input": {
+                    "text": "Restaurant"
+                  }
+                }
+              },
+              {
+                "label": "Coffee",
+                "value": {
+                  "input": {
+                    "text": "Coffee"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1627519343059",
+      "conditions": "true",
+      "dialog_node": "node_9_1627657164608",
+      "previous_sibling": "node_1_1627658904392"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1627326369708",
+      "variable": "$date",
+      "dialog_node": "slot_10_1627326439692"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1627326369708",
+      "variable": "$time",
+      "dialog_node": "slot_6_1627326488618",
+      "previous_sibling": "slot_10_1627326439692"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1627326369708",
+      "variable": "$number",
+      "dialog_node": "slot_7_1627326490740",
+      "previous_sibling": "slot_6_1627326488618"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, My name is Ka🥰🌼 , and I'm a chatbot. \nI can do the following:\n\n• Recommend a movie or book according to the genre you want.\n• Recommend a place to visit in the eastern region. \n• Tell jokes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Recommendation Chatbot skill",
+  "language": "en",
+  "description": "Recommend a movie or book according to the genre you want, a place to visit in the eastern region, also tell some jokes."
+}
