@@ -1,7 +1,7 @@
 # Project 2: Reception Robot
 "**Reception Robot**" project, is a robot for receiving and serving customers, as well as recording the extent of customer satisfaction.
 
-In this project, we will build an IT support **chatbot** by using **IBM Watson Assistant** (It is a service provided by IBM that allows you to create a free chatbot for 30 days).
+In this project, we will build a service **chatbot** by using **IBM Watson Assistant** (It is a service provided by IBM that allows you to create a free chatbot for 30 days).
 
 ## Chatbot
 A chatbot is a support system for your customer service. Using artificial intelligence and natural language processing, a chatbot can simulate a conversation with a user through messaging apps, websites, mobile apps, and more, giving them accurate and relevant information.
