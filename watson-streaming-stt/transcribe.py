@@ -136,8 +136,6 @@ def on_message(self, msg):
         print(TxtMsg)
     Chatbot_Msg(TxtMsg)
     Get_TextToSpeech()
-        # it is repeat sent/get response
-        # playsound  for play audio not work
 
 
 def Chatbot_Msg(txt):
@@ -194,8 +192,6 @@ def Get_TextToSpeech():
             audio_file.write(res.content)
         playsound('./OutputAsSpeech.mp3')
         time.sleep(2)
-        #winsound.PlaySound('./SpeechOutput.mp3', winsound.SND_ASYNC | winsound.SND_ALIAS )
-        #winsound.PlaySound(None, winsound.SND_ASYNC)
 
 
 def on_error(self, error):
@@ -211,8 +207,6 @@ def on_close(ws):
     transcript = "".join([x['results'][0]['alternatives'][0]['transcript']
                           for x in FINALS])
     print(transcript)
-    #Chatbot_Msg(txt=transcript)
-    #Get_TextToSpeech()
 
 
 def on_open(ws):
