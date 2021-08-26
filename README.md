@@ -36,7 +36,7 @@ My little chatbot can recommend you a book, movie, or even a place. It also tell
 
 
 ## Voice Chatbot
-
+In this task we will use IBM Watson Service & Python to convert speech to text (STT) and save it as .txt file then we will convert text to speech (TTS) and save it as .mp3 file.
 
 
 
